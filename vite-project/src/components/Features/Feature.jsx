@@ -1,5 +1,9 @@
 const Feature = () => {
-  return <div>Feature</div>;
+  return (
+    <section className="features-section">
+      <div className="container"></div>
+    </section>
+  );
 };
 
 export default Feature;

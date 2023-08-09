@@ -1,5 +1,9 @@
 const SubFooter = () => {
-  return <div>SubFooter</div>;
+  return (
+    <div>
+      <div className="container"></div>
+    </div>
+  );
 };
 
 export default SubFooter;

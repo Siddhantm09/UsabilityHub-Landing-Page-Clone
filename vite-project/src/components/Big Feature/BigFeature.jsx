@@ -1,5 +1,9 @@
 const BigFeature = () => {
-  return <div>BigFeature</div>;
+  return (
+    <section className="big-features-section">
+      <div className="container"></div>
+    </section>
+  );
 };
 
 export default BigFeature;

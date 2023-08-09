@@ -1,5 +1,9 @@
 const CTA = () => {
-  return <div>CTA</div>;
+  return (
+    <div>
+      <div className="container"></div>
+    </div>
+  );
 };
 
 export default CTA;
