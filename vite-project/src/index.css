@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Roboto:wght@400;700&display=swap");
 
 /* resets */
 * {
@@ -38,6 +38,11 @@ a {
   text-decoration: none;
   /* display: inline-block; */
 }
+ul {
+  list-style: none;
+}
+
+/* ------------------------------------------------------------------------------------------------ */
 
 /* utility classes */
 .small-bold-text {
@@ -45,7 +50,43 @@ a {
   font-weight: 700;
 }
 .container {
-  max-width: 1180px;
+  max-width: 1186px;
   margin-inline: auto;
   padding-inline: var(--padding-inline-section);
+}
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.hover-link {
+  color: var(--primary-text-color);
+  transition: 0.2s ease-out;
+}
+.hover-link:hover {
+  color: var(--accent-color);
+}
+
+.primary-btn {
+  border-radius: 6px;
+  background-color: var(--accent-color);
+  color: white !important;
+  font-weight: 700;
+  padding: 9px var(--padding-inline-section);
+  transition: 0.2s ease-out;
+  box-shadow: 0 0 2px var(--secondary-text-color);
+}
+.primary-btn:hover {
+  background-color: var(--accent-color-dark);
+}
+.secondary-btn {
+  /* color: var(--primary-text-color); */
+  font-weight: 700;
+  border: 0.5px solid var(--secondary-text-color);
+  border-radius: 6px;
+  transition: 0.2s ease-out;
+  padding: 9px var(--padding-inline-section);
+}
+.secondary-btn:hover {
+  border: 1px solid var(--accent-color);
 }

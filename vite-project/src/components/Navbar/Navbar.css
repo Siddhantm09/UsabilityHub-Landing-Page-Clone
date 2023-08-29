@@ -1,0 +1,14 @@
+.main-nav {
+  justify-content: space-between;
+  margin-top: 25px;
+}
+img {
+  width: 200px;
+}
+/* .nav-links {
+  flex-basis: 730px;
+} */
+.nav-links ul {
+  /* justify-content: end; */
+  gap: 40px;
+}
