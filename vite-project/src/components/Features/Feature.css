@@ -1,0 +1,22 @@
+/* .features-section {
+  width: 100%;
+  background-image: url("../../assets/asset41.png");
+  background-repeat: no-repeat;
+  background-color: var(--secondary-text-color);
+} */
+
+.feature-header {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 130px;
+  gap: 20px;
+}
+.feature-list {
+  /* flex-direction: column; */
+
+  width: 100px;
+}
+.card {
+  flex-direction: column;
+}

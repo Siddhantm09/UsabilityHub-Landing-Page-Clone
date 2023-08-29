@@ -1,6 +1,7 @@
 .company {
-  padding: 100px 0 0 0;
+  height: 250px;
   flex-direction: column;
+  justify-content: center;
   text-align: center;
 }
 .text-line {
