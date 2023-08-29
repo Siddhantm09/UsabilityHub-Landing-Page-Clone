@@ -47,16 +47,16 @@ ul {
 /* utility classes */
 .small-bold-text {
   font-size: 1rem;
-  font-weight: 700;
+  font-weight: 500;
 }
 .container {
-  max-width: 1186px;
+  max-width: 1300px;
   margin-inline: auto;
   padding-inline: var(--padding-inline-section);
 }
 .flex {
   display: flex;
-  align-items: center;
+  /* align-items: center; */
 }
 
 .hover-link {
@@ -84,7 +84,6 @@ ul {
   font-size: 16px;
   border: 0.1px solid var(--secondary-text-color);
   border-radius: 6px;
-
   transition: 0.2s ease-out;
   padding: 9px var(--padding-inline-section);
 }

@@ -1,0 +1,38 @@
+header {
+  padding: 50px var(--padding-inline-section) 0;
+}
+.main-hero {
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+.hero-right img {
+  width: 650px;
+}
+.hero-left {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.hero-left a {
+  padding: 19px 95px;
+}
+.below-text {
+  align-items: center;
+  gap: 10px;
+  flex-direction: column;
+  width: 277px;
+}
+.info {
+  color: var(--secondary-text-color);
+  font-weight: 100;
+  font-size: 20px;
+}
+.text {
+  font-weight: 100;
+  color: var(--secondary-text-color);
+}
+.above-text {
+  gap: 12px;
+  flex-direction: column;
+}

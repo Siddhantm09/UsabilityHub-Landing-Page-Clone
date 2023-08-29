@@ -5,7 +5,7 @@ const Banner = () => {
     <div className="top">
       <div className="banner-container">
         <div className="small-bold-text banner-text">
-          New to Usablity Hub : Open and closed card sorting
+          📣 Interviews is now in beta! Read more →
         </div>
       </div>
     </div>
