@@ -1,2 +1,27 @@
-
-
+.company {
+  padding: 100px 0 0 0;
+  flex-direction: column;
+  text-align: center;
+}
+.text-line {
+  font-size: 20px;
+}
+.company-img {
+  flex-wrap: wrap;
+  margin: 20px 0 0 0;
+  justify-content: space-between;
+}
+.company-img img {
+  width: 150px;
+  height: 55px;
+}
+.fiveth {
+  width: 50px !important;
+}
+.one {
+  width: 120px !important;
+}
+.third {
+  width: 170px !important;
+  height: 45px;
+}
