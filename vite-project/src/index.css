@@ -71,19 +71,20 @@ ul {
   border-radius: 6px;
   background-color: var(--accent-color);
   color: white !important;
-  font-weight: 700;
+  font-weight: 500;
   padding: 9px var(--padding-inline-section);
   transition: 0.2s ease-out;
-  box-shadow: 0 0 2px var(--secondary-text-color);
+  box-shadow: 0 0 1px var(--secondary-text-color);
 }
 .primary-btn:hover {
   background-color: var(--accent-color-dark);
 }
 .secondary-btn {
-  /* color: var(--primary-text-color); */
-  font-weight: 700;
-  border: 0.5px solid var(--secondary-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  border: 0.1px solid var(--secondary-text-color);
   border-radius: 6px;
+
   transition: 0.2s ease-out;
   padding: 9px var(--padding-inline-section);
 }
