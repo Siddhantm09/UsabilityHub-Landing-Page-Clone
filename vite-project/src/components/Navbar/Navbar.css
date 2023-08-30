@@ -1,14 +1,26 @@
 .main-nav {
   justify-content: space-between;
-  margin-top: 45px;
+  align-items: center;
+  margin-top: 30px;
 }
 img {
   width: 200px;
 }
-/* .nav-links {
-  flex-basis: 730px;
-} */
 .nav-links ul {
-  /* justify-content: end; */
   gap: 40px;
+}
+.company-logo {
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+}
+.become-tester {
+  width: 170px;
+  height: 50px;
+}
+.become-tester-text {
+  position: absolute;
+  margin-left: 220px;
+  font-size: 16px;
+  font-weight: 500;
 }
