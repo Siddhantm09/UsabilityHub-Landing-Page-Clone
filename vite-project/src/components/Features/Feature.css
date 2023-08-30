@@ -1,9 +1,18 @@
+/* .bgimg {
+  position: absolute;
+  width: 1120px;
+  height: 830px;
+  margin-left: 100px;
+  z-index: -1;
+}
 .feature-header {
+  text-align: center;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 130px;
   gap: 20px;
+  margin-top: 50px;
 }
 .feature-list {
   display: grid;
@@ -31,9 +40,37 @@
   padding: 12px;
   line-height: 1.7;
   text-align: center;
-}
-.learn-btn img {
+} */
+/* .learn-btn img {
   margin-left: 9px;
   width: 15px;
+  text-align: center;
   gap: 12px;
+} */
+.feature-area {
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 40px;
+  margin-top: 30px;
+}
+.features-section {
+  padding: 30px var(--padding-inline-section) 0;
+  background-image: url("../../assets/asset34.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 1080px;
+}
+.feature-header {
+  text-align: center;
+}
+.feature-header h2 {
+  margin-bottom: 25px;
+}
+.feature-card {
+  text-align: center;
+  max-width: 30%;
+  gap: 20px;
+  flex-direction: column;
+  align-items: center;
 }

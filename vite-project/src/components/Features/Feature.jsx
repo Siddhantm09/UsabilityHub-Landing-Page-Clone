@@ -1,26 +1,28 @@
 import "./Feature.css";
 import featureNames from "../../utils/featureNames";
-import arrow from "../../assets/asset 12.svg";
+// import arrow from "../../assets/asset 12.svg";
+// import bgimg from "../../assets/asset34.svg";
 
 const Feature = () => {
   return (
     <section className="features-section">
       <div className="container">
-        <div className="feature-header flex">
+        {/* <img className="bgimg" src={bgimg} /> */}
+        <div className="feature-header">
           <h2>Your user research Swiss Army knife</h2>
-          <a className="secondary-btn hover-link">See all features</a>
+          <a href="#" className="secondary-btn">
+            See all features <i className="fa solid fa-right-long"></i>
+          </a>
         </div>
-        <div className="feature-list">
+        <div className="feature-area flex">
           {featureNames.map((val, id) => {
             return (
-              <div className="card flex" key={id}>
-                <div className="card-info flex" key={id}>
-                  <img src={val.image} alt="image" />
-                  <h3>{val.name}</h3>
-                  <p>{val.info}</p>
-                </div>
-                <a className="secondary-btn hover-link learn-btn flex">
-                  Learn more <img src={arrow} />
+              <div className="feature-card flex" key={id}>
+                <img src={val.image} alt="image" />
+                <h3>{val.name}</h3>
+                <p>{val.info}</p>
+                <a className="secondary-btn">
+                  Learn more <i className="fa solid fa-right-long"></i>
                 </a>
               </div>
             );
