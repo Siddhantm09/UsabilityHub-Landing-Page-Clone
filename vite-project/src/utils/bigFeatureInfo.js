@@ -1,0 +1,32 @@
+export const array = [
+    {
+        line1: "Effortless validation for",
+        line2: "Design professionals",
+        info1: 'Test interfaces, interaction flows, iconography and more, to help you create intuitive and delightful experiences for your users.',
+        companyImg: "",
+        info2: "The navigation test is god's gift to UI designers, it probably has the best power-to-simplicity ratio of any software, ever.",
+        cheifProfileImg: "",
+        cheifName: "Nick Franklin",
+        cheifRole: "Chief Executive Officer",
+    },
+    {
+        line1: "Optimisation forr",
+        line2: "Marketers",
+        info1: 'Fine-tune landing pages, messaging, and creative, helping you optimise conversion rates on marketing campaigns and product launches.',
+        companyImg: "",
+        info2: "We use UsabilityHub tests to help us make decisions for various projects. From web and mobile design to marketing activities.",
+        cheifProfileImg: "",
+        cheifName: "Rick van de Ven",
+        cheifRole: "Digital Marketing Analyst",
+    },
+    {
+        line1: "Easier decision making for",
+        line2: "Product managers",
+        info1: 'Ensure you’re delivering the right features to the right customers by validating product concepts with your target audience.',
+        companyImg: "",
+        info2: "Adopting UsabilityHub got us into the habit of asking our users questions before locking in decisions.",
+        cheifProfileImg: "",
+        cheifName: "Ron Diorio",
+        cheifRole: "VP Innovation & New Products",
+    },
+];

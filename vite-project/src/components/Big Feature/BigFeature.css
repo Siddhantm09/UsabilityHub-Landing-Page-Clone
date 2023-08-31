@@ -1,0 +1,56 @@
+.big-features-section {
+  margin-top: 50px;
+}
+.big-feature {
+  margin-top: 30px;
+  align-items: center;
+  justify-content: center;
+  gap: 70px;
+}
+.left-part {
+  width: 70%;
+}
+.left-part img {
+  width: 100%;
+}
+.right-part {
+  gap: 20px;
+  flex-direction: column;
+  height: 70%;
+}
+.right-part-above {
+  flex-direction: column;
+  gap: 10px;
+}
+.right-part-above h4 {
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--primary-text-color);
+}
+.right-part-above p {
+  word-spacing: 0.5px;
+  letter-spacing: 0.5px;
+}
+.right-part-below {
+  margin-top: 1px;
+  flex-direction: column;
+  gap: 40px;
+}
+.company-image {
+  width: 120px;
+}
+.company-text1 {
+  word-spacing: 1px;
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--primary-text-color);
+}
+
+.profile-main {
+  margin-top: 1px;
+  align-items: center;
+  gap: 10px;
+}
+.profile-main img {
+  width: 10%;
+}

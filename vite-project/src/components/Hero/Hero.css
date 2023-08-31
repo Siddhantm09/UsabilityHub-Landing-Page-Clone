@@ -25,6 +25,8 @@ header {
   width: 277px;
 }
 .info {
+  word-spacing: 0.5px;
+  letter-spacing: 0.5px;
   color: var(--secondary-text-color);
   font-weight: 100;
   font-size: 20px;
