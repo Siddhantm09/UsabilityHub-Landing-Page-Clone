@@ -1,0 +1,21 @@
+.footer {
+  background-color: #ebf2fa;
+  height: 60px;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.social-icons {
+  justify-content: space-around;
+  width: 20px;
+  height: 20px;
+}
+.social {
+  gap: 30px;
+  justify-content: space-around;
+  width: 20px;
+  height: 20px;
+}
+.footer-links {
+  align-items: center;
+  gap: 40px;
+}

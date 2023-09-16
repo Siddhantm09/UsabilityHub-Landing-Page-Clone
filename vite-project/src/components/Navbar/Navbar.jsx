@@ -1,9 +1,10 @@
 import logo from "../../assets/asset 1.png";
 import logo1 from "../../assets/asset 33.svg";
 import "./Navbar.css";
+
 const Navbar = () => {
   return (
-    <div>
+    <section>
       <div className="container main-nav flex">
         <a href="#" className="company-logo flex">
           <img src={logo} alt="company-logo" />
@@ -45,7 +46,7 @@ const Navbar = () => {
           </ul>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

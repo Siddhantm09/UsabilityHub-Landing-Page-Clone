@@ -7,6 +7,8 @@ import Feature from "./components/Features/Feature";
 import BigFeature from "./components/Big Feature/BigFeature";
 import Examples from "./components/Examples/Examples";
 import CTA from "./components/CTA/CTA";
+import Footer from "./components/Footer/Footer";
+import Trail from "./components/Trail/Trail";
 function App() {
   return (
     <div>
@@ -18,6 +20,8 @@ function App() {
       <BigFeature />
       <Examples />
       <CTA />
+      <Trail />
+      <Footer />
     </div>
   );
 }

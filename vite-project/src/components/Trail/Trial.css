@@ -1,0 +1,21 @@
+.trail {
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+.trail-below {
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+.info {
+  text-align: center;
+  word-spacing: 0.5px;
+  letter-spacing: 0.5px;
+  color: var(--secondary-text-color);
+  font-weight: 100;
+  font-size: 20px;
+}
+.trail-section {
+  padding: 100px;
+}

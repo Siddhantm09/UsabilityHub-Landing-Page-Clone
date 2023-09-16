@@ -58,8 +58,8 @@
   padding: 30px var(--padding-inline-section) 0;
   background-image: url("../../assets/asset34.svg");
   background-repeat: no-repeat;
-  background-position: center;
-  background-size: 1080px;
+  background-position: right;
+  /* background-size: 1080px; */
 }
 .feature-header {
   text-align: center;
