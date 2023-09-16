@@ -8,7 +8,7 @@ const Feature = () => {
     <section className="features-section">
       <div className="container">
         {/* <img className="bgimg" src={bgimg} /> */}
-        <div className="feature-header">
+        <div className="feature-header flex">
           <h2>Your user research Swiss Army knife</h2>
           <a href="#" className="secondary-btn">
             See all features <i className="fa solid fa-right-long"></i>

@@ -1,5 +1,5 @@
 .footer {
-  background-color: #ebf2fa;
+  background-color: var(--footer-color);
   height: 60px;
   justify-content: space-evenly;
   align-items: center;

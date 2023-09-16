@@ -9,6 +9,7 @@ import Examples from "./components/Examples/Examples";
 import CTA from "./components/CTA/CTA";
 import Footer from "./components/Footer/Footer";
 import Trail from "./components/Trail/Trail";
+import SubFooter from "./components/Sub-Footer/SubFooter";
 function App() {
   return (
     <div>
@@ -21,6 +22,7 @@ function App() {
       <Examples />
       <CTA />
       <Trail />
+      <SubFooter />
       <Footer />
     </div>
   );

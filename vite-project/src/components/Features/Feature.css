@@ -63,10 +63,12 @@
 }
 .feature-header {
   text-align: center;
-}
-.feature-header h2 {
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
   word-spacing: 2px;
-  margin-bottom: 25px;
 }
 .feature-card {
   text-align: center;

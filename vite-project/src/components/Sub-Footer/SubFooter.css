@@ -1,0 +1,25 @@
+.sub-footer-section {
+  background-color: #ebf2fa;
+  padding: 5%;
+}
+.main-col {
+  gap: 10%;
+  justify-content: center;
+}
+
+.list-header {
+  flex-direction: column;
+  gap: 8px;
+}
+/* .lists {
+  word-spacing: 1px;
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--primary-text-color);
+} */
+.list-heading {
+  word-spacing: 1px;
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--primary-text-color);
+}
