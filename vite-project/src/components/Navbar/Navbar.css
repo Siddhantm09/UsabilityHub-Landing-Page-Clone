@@ -24,3 +24,19 @@ img {
   font-size: 16px;
   font-weight: 500;
 }
+
+/* Responsive Code */
+
+@media (max-width: 1158px) {
+  .secondary-btn,
+  .primary-btn,
+  .nav-links {
+    display: none;
+  }
+  .burger-ul {
+    flex-direction: column;
+  }
+  .burger-menu {
+    justify-content: space-between;
+  }
+}
