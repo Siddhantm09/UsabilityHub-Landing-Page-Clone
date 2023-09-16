@@ -1,8 +1,12 @@
+import "./CTS.css";
 const CTA = () => {
   return (
-    <div>
-      <div className="container"></div>
-    </div>
+    <section>
+      <div className="CTA-section">
+        <div className="CTA-left-part"></div>
+        <div className="CTA-right-part"></div>
+      </div>
+    </section>
   );
 };
 

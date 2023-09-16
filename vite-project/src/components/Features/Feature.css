@@ -65,6 +65,7 @@
   text-align: center;
 }
 .feature-header h2 {
+  word-spacing: 2px;
   margin-bottom: 25px;
 }
 .feature-card {

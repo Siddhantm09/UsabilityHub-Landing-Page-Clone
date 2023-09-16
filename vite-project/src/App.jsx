@@ -5,6 +5,8 @@ import Hero from "./components/Hero/Hero";
 import Companies from "./components/Companies/Companies";
 import Feature from "./components/Features/Feature";
 import BigFeature from "./components/Big Feature/BigFeature";
+import Examples from "./components/Examples/Examples";
+import CTA from "./components/CTA/CTA";
 function App() {
   return (
     <div>
@@ -14,6 +16,8 @@ function App() {
       <Companies />
       <Feature />
       <BigFeature />
+      <Examples />
+      <CTA />
     </div>
   );
 }
