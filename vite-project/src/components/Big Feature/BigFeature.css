@@ -7,6 +7,12 @@
   justify-content: center;
   gap: 70px;
 }
+#res {
+  display: none;
+}
+.big-feature-non-res {
+  display: flex;
+}
 .left-part {
   width: 70%;
 }
@@ -53,4 +59,18 @@
 }
 .profile-main img {
   width: 10%;
+}
+@media (max-width: 968px) {
+  .big-feature {
+    flex-direction: column;
+  }
+  .big-feature-non-res {
+    display: none;
+  }
+  #res {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
 }

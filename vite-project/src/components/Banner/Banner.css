@@ -9,3 +9,12 @@
   padding: 15px 30px;
   text-align: center;
 }
+
+@media (max-width: 1016px) {
+  .top {
+    background-color: #4fb3d4;
+    background-image: url("../../assets/asset32.png");
+    background-size: 300px;
+    overflow-x: hidden;
+  }
+}

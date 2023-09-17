@@ -35,12 +35,12 @@ const Navbar = () => {
               </a>
             </li>
             <li>
-              <a href="#" className="hover-link secondary-btn">
+              <a href="#" id="sign-in" className="hover-link secondary-btn">
                 Sign In
               </a>
             </li>
             <li>
-              <a href="#" className="hover-link primary-btn">
+              <a href="#" id="try-for-free" className="hover-link primary-btn">
                 Try for free
               </a>
             </li>

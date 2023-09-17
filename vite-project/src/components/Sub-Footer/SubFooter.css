@@ -1,4 +1,5 @@
 .sub-footer-section {
+  overflow-x: hidden;
   background-color: #ebf2fa;
   padding: 5%;
 }
@@ -22,4 +23,17 @@
   font-size: 18px;
   font-weight: 600;
   color: var(--primary-text-color);
+}
+@media (max-width: 775px) {
+  .main-col {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .list-header {
+    text-align: center;
+  }
+  .main-col {
+    gap: 30px;
+  }
 }

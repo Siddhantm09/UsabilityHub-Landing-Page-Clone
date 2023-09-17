@@ -5,12 +5,12 @@ import Linkedln from "../../assets/asset 30.png";
 import YT from "../../assets/asset 31.png";
 const Footer = () => {
   return (
-    <section>
+    <section className="">
       <div className="flex footer">
         <div className="flex footer-links small-bold-text">
-          <a>Privacy policy</a>
-          <a>Terms & conditions</a>
-          <a>Security information</a>
+          <a className="link">Privacy policy</a>
+          <a className="link">Terms & conditions</a>
+          <a className="link">Security information</a>
         </div>
         <div className="flex social">
           <img className="social-icons" src={fb} alt="fb" />

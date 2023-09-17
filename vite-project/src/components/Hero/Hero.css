@@ -7,7 +7,7 @@ header {
   gap: 50px;
 }
 .hero-right img {
-  width: 650px;
+  width: 100%;
 }
 .hero-left {
   display: flex;
@@ -38,4 +38,27 @@ header {
 .above-text {
   gap: 12px;
   flex-direction: column;
+}
+/* Responsive-Code */
+@media (max-width: 1016px) {
+  header {
+    overflow-y: hidden;
+  }
+  .main-hero {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .hero-left,
+  .below-text {
+    text-align: center;
+    width: 80vw;
+  }
+  .hero-right {
+    text-align: center;
+    width: 100%;
+  }
+  .hero-right img {
+    width: 100%;
+  }
 }

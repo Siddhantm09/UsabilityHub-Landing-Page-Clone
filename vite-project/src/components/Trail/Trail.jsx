@@ -4,7 +4,7 @@ const Trail = () => {
     <section className="trail-section">
       <div className="flex trail">
         <h2>Start a 14 day free trail</h2>
-        <p className="info">
+        <p className="trail-info">
           Learn why UsabilityHub is trusted by 280,000+ designers, marketers,
           product managers, and researchers.
         </p>

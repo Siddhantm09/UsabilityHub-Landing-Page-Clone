@@ -8,7 +8,7 @@
   align-items: center;
   gap: 10px;
 }
-.info {
+.trail-info {
   text-align: center;
   word-spacing: 0.5px;
   letter-spacing: 0.5px;
@@ -18,4 +18,9 @@
 }
 .trail-section {
   padding: 100px;
+}
+@media (max-width: 768px) {
+  .trail {
+    text-align: center;
+  }
 }

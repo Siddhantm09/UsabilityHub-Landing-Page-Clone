@@ -30,8 +30,11 @@ img {
 /* Responsive Code */
 
 @media (max-width: 1158px) {
-  .secondary-btn,
-  .primary-btn,
+  .main-nav {
+    overflow-x: hidden;
+  }
+  #sign-in,
+  #try-for-free,
   .nav-links ul {
     display: none;
   }

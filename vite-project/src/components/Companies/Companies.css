@@ -8,6 +8,7 @@
   font-size: 20px;
 }
 .company-img {
+  gap: 2%;
   flex-wrap: wrap;
   margin: 20px 0 0 0;
   justify-content: space-between;
