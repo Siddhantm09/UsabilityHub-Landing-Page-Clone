@@ -45,43 +45,10 @@ const Navbar = () => {
               </a>
             </li>
           </ul>
+          <div className="burger-menu">
+            <FontAwesomeIcon icon={faBars} />
+          </div>
         </div>
-      </div>
-      {/* Responsive Code */}
-      <div className="burger-menu flex">
-        <FontAwesomeIcon icon={faBars} />
-        {/* <ul className="flex burger-ul">
-          <li>
-            <a href="#" className="hover-link">
-              Products
-            </a>
-          </li>
-          <li>
-            <a href="#" className="hover-link">
-              Customers
-            </a>
-          </li>
-          <li>
-            <a href="#" className="hover-link">
-              Pricing
-            </a>
-          </li>
-          <li>
-            <a href="#" className="hover-link">
-              Resources
-            </a>
-          </li>
-          <li>
-            <a href="#" className="hover-link secondary-btn">
-              Sign In
-            </a>
-          </li>
-          <li>
-            <a href="#" className="hover-link primary-btn">
-              Try for free
-            </a>
-          </li>
-        </ul> */}
       </div>
     </section>
   );
